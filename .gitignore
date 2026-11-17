@@ -1,0 +1,23 @@
+# Private academic source formats
+*.doc
+*.docx
+~$*
+private/
+source/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Local operating-system files
+.DS_Store
+Thumbs.db
+
+# Generated validation files
+__pycache__/
+*.pyc
+
+
